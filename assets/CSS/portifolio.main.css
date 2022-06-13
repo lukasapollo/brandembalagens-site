@@ -1,0 +1,34 @@
+.galery{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.container-imgs{
+    width:100%;
+    max-width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: 360px 360px 360px; */
+}
+
+.itens-galery{
+    height: 229px;
+    width: 325px;
+    background-color: rgb(119, 119, 119);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.itens-galery:hover{
+    filter: brightness(115%);
+    background-position: 0px -17px;
+    transition: all 0.5s ease;
+}
+
+
+
+   

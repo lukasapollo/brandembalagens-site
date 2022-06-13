@@ -1,0 +1,206 @@
+.header{
+    background-color: #000119;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .ctn-logo img{
+    width: 200px;
+}
+
+.img-size{
+    width: 135px !important;
+}
+
+header.header-scroll{
+    position: fixed !important;
+    justify-content:center !important;
+    height: 69px !important;
+    width: 100%;
+    background: #000000;
+    transition: all 0.3s ease;
+}
+
+.ctn-logo-screen {
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.boxs-height{
+    height: 100%;
+}
+
+/* Boxs do header */
+
+.boxs-header-1{
+    order: 2;
+    display: flex;
+    width: 100%;
+    max-width: 1142px;
+    padding: 0px 66px;
+    padding-bottom: 30px;
+}
+
+.boxs-header-2{
+ 
+    order: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px 66px;
+
+    width: 100%;
+    max-width: 1142px;
+}
+
+
+
+/* Navbar */
+
+.boxs-header-1 nav{
+    height: auto;
+    width: 100%;
+}
+
+.boxs-header-1 ul{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    height: 100%;
+    padding: 0px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.boxs-header-1 ul li a{
+    color: #fff;
+}
+
+.boxs-header-1 ul li a:hover {
+    color: rgb(0, 174, 255);
+}
+
+.boxs-header-1 ul li a.catalago{
+    text-decoration: underline;
+}
+
+
+
+.boxs-header-2 ul {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.boxs-header-2 ul li i{
+    color: rgb(219, 219, 219);
+    font-size: 1.2rem;
+}
+
+
+.boxs-header-1 ul li .page-active{
+    color: rgb(0, 174, 255);
+}
+
+.btn-menu i{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.disable{
+    display: none !important;
+}
+
+@media (max-width: 1238px){
+    .boxs-header-1 nav{
+        background-color: #02020252;
+        position: absolute;
+        top: 0;
+        right: -100vw;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .boxs-header-1 nav.active-navbar{
+        right: 0;
+    }
+
+    .boxs-header-1 nav .ctn-menu{
+        background-color: #020202;
+    }
+
+    .boxs-header-1 nav .ctn-menu .close-nav {
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px 20px;
+    }
+    .boxs-header-1 nav .ctn-menu .close-nav i{
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    .boxs-header-1 nav .ctn-menu ul{
+       flex-direction: column;
+       gap: 1.5rem;
+    }
+    .boxs-header-1 ul li a{
+        color: #9e9e9e;
+    }
+
+
+    .boxs-header-1 nav .ctn-menu ul .cx-social{
+        margin-top: 1rem;
+        gap: 1rem;
+        display: flex !important;
+    }
+
+    .boxs-header-1 nav .ctn-menu ul .cx-social i{
+        color: #9e9e9e;
+    }
+
+    .boxs-header-1 nav .ctn-menu ul .cx-social i:hover{
+        color: #fff;
+    }
+
+    .btn-menu {
+        display: flex !important;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .boxs-header-2{
+        display: none;
+    }
+
+    .header{
+        height: 80px;
+        justify-content: center;
+        background-color: #000000;
+    }
+
+    .ctn-logo{
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .ctn-logo img{ 
+        width: 135px;
+    }
+
+    .boxs-header-1 {
+        padding: 0px 22px;
+        padding-bottom: 0px;
+    }
+
+    .btn-menu {
+        align-items: center;
+    }
+}

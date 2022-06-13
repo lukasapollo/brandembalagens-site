@@ -1,0 +1,67 @@
+.modal-galery{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.685);
+    position: fixed;
+    top: 0;
+}
+
+.modal-galery .ctn-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.modal-galery .ctn-images i{
+    font-size: 2rem;
+    color: rgb(248, 248, 248);
+}
+
+.modal-galery .ctn-images img{
+   width: 100%;
+   max-width: 800px;
+}
+
+.close-modal{
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.screen-img{
+    width: 100vw;
+}
+
+.screen-img button.btn{
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    border: none;
+}
+
+.screen-img button i{
+    font-size: 2rem;
+    color: rgb(153, 153, 153);
+}
+
+.screen-img button i:hover{
+    font-size: 2rem;
+    color: rgb(115, 122, 194);
+}
+
+.screen-img button.btn-left{
+    left: 18px;
+}
+
+.screen-img button.btn-right{
+    right: 35px;
+}
+
+.pagination-modal{
+    color: #fff;
+    padding: 3px 0px;
+}
+

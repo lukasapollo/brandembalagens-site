@@ -1,0 +1,35 @@
+.navigation {
+    background-color: rgba(247, 247, 247, 1);;
+
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navigation h2{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.navigation .cx-links{
+    display: flex;
+    gap: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation .cx-links a{
+    color: rgba(0,0,0,.3);
+}
+.navigation .cx-links a:hover{
+    text-decoration: underline;
+}
+
+.navigation .cx-links div{
+    color: rgba(0,0,0,.3);
+}
+
+

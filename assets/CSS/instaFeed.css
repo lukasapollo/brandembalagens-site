@@ -1,0 +1,79 @@
+
+.cx-follow{
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cx-follow a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(238, 238, 238);
+    font-weight:bold;
+}
+
+.cx-follow .tag-underline:hover{
+    text-decoration: underline;
+}
+
+.cx-follow .btn-follow {
+    font-weight: 200;
+    padding: 5px 20px;
+    background-color: rgb(0, 125, 242);
+    border-radius: 4px;
+}
+
+.cx-follow .btn-follow:hover{
+    background-color: rgb(207, 4, 75);
+}
+
+.instaFeed .feed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0d0d0d;
+}
+
+.feed a{
+    width: 268px;
+    height: 268px;
+    background-color: black;
+    background-image: url('../IMG/img-inst-1.jpg');
+    background-size: 100%;
+}
+
+.feed a aside{
+    width: 268px;
+    height: 268px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.feed a aside:hover{
+    background-color: rgba(0, 0, 0, 0.843);
+    color: rgb(244, 244, 244);
+}
+
+.feed a aside span{
+    position: relative;
+    top: 40px;
+}
+
+.up-text{
+    top: 0px !important;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
