@@ -8,6 +8,11 @@ toggleNav.forEach((btnNav) => {
     })
 })
 
+let largura; 
+
+window.onload = () => {
+   largura = window.screen.width;
+}
 
 /* Mappeando scroll */
 
@@ -27,7 +32,9 @@ function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 
         showClass.addClass('.boxs-header-2', 'disable')
-        showClass.addClass('.header', 'header-scroll')
+        if(largura > 767){
+            showClass.addClass('.header', 'header-scroll')
+        }
         showClass.addClass('.boxs-header-1', 'boxs-height')
         showClass.addClass('#logo-header', 'img-size')
         showClass.addClass('.ctn-logo', 'ctn-logo-screen')
