@@ -116,7 +116,7 @@ header.header-scroll{
 @media (max-width: 1238px){
     .boxs-header-1 nav{
         background-color: #02020252;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: -100vw;
         width: 100vw;
