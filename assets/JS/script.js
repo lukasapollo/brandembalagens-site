@@ -51,11 +51,13 @@ const asideContainer = document.querySelectorAll('.aside-container')
 function asideEnter({ target }){
    const res = target.getAttribute('data-aside')
    cardInsta[res].classList.add('up-text')
+   console.log(target)
 }
 
 function asideExit({ target }){
     const res = target.getAttribute('data-aside')
     cardInsta[res].classList.remove('up-text')
+    console.log(target)
 }
 
 asideContainer.forEach((aside) => {

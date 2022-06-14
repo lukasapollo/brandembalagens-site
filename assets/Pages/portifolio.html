@@ -113,16 +113,16 @@
   <section class="modal-galery disable">
     <aside class="screen-img">
         <div class="ctn-images">
-            <div class="close-modal"><i class='bx bx-x'></i></div>
-            <img src="../galery/1.jpeg" alt="">
+            <div class="close-modal"><i data-item="0" id="closeModal" class='bx bx-x'></i></div>
+            <img id="image-modal" src="../galery/1.jpeg" alt="">
             <div class="pagination-modal">
-                <span class>1</span><span>/</span><span>50</span>
+                <span id="indexImg">1</span><span>/</span><span>50</span>
             </div>
         </div>
         
 
-        <button class=" btn btn-left"><i class='bx bxs-left-arrow'></i></button>
-        <button class=" btn btn-right"><i class='bx bxs-right-arrow'></i></button>
+        <button class=" btn btn-left"><i data-button="-1" class='bx bxs-left-arrow'></i></button>
+        <button class=" btn btn-right"><i data-button="1" class='bx bxs-right-arrow'></i></button>
         
     </aside>
   </section>

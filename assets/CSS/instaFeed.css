@@ -1,4 +1,3 @@
-
 .cx-follow{
     background-color: black;
     padding: 15px;
@@ -40,8 +39,27 @@
     width: 268px;
     height: 268px;
     background-color: black;
-    background-image: url('../IMG/img-inst-1.jpg');
+    
     background-size: 100%;
+}
+
+.feed a#content-img-1{
+    background-image: url('../IMG/img-inst-1.jpg');
+}
+.feed a#content-img-2{
+    background-image: url('../IMG/img-inst-2.jpg');
+}
+.feed a#content-img-3{
+    background-image: url('../IMG/img-inst-3.jpg');
+}
+.feed a#content-img-4{
+    background-image: url('../IMG/img-inst-4.jpg');
+}
+.feed a#content-img-5{
+    background-image: url('../IMG/img-inst-5.jpg');
+}
+.feed a#content-img-6{
+    background-image: url('../IMG/img-inst-6.jpg');
 }
 
 .feed a aside{
@@ -70,10 +88,3 @@
     top: 0px !important;
     transition: all 0.5s ease;
 }
-
-
-
-
-
-
-
