@@ -27,11 +27,13 @@ section.container-1{
     align-items: center;
 }
 
-.cx-btn a{
+.cx-btn button{
     background-color: chocolate;
     padding: 10px 15px;
     border-radius: 4px;
     color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
 .content-1{

@@ -20,7 +20,7 @@
                     <ul>
                         <li> <a href="../../index.html">Home</a></li>
                         <li> <a class="page-active" href="">Portifolio</a></li>
-                        <li> <a href="">Blog</a></li>
+                        <li> <a href="./blog.html">Blog</a></li>
                         <li> <a href="">Links</a></li>
                         <li> <a class="catalago" href="">Catálago 2021</a></li>
                         <div class="cx-social disable">
@@ -45,11 +45,11 @@
         </div>
     </header>
 
-    <div id="body-portifolio">
+    
         <section class="navigation">
             <h2>Portifolio</h2>
             <div class="cx-links">
-                <div><a href="">Home</a></div>
+                <div><a href="../../index.html">Home</a></div>
                 <div><i class='bx bx-chevron-right'></i></div>
                 <div>Portifolio</div>
             </div>
@@ -112,7 +112,22 @@
             </div>
         </main>
     
+        <section class="modal-galery disable">
+            <aside class="screen-img">
+                <div class="ctn-images">
+                    <div class="close-modal"><i data-item="0" id="closeModal" class='bx bx-x'></i></div>
+                    <img id="image-modal" src="../galery/1.jpeg" alt="">
+                    <div class="pagination-modal">
+                        <span id="indexImg">1</span><span>/</span><span>50</span>
+                    </div>
+                </div>
+                
         
+                <button class=" btn btn-left"><i data-button="-1" class='bx bxs-left-arrow'></i></button>
+                <button class=" btn btn-right"><i data-button="1" class='bx bxs-right-arrow'></i></button>
+                
+            </aside>
+          </section>
     
         <footer class="footer">
             <div class="container-footer">
@@ -131,24 +146,8 @@
                 </div>
             </div>
         </footer>
-    </div>
 
-    <section class="modal-galery disable">
-        <aside class="screen-img">
-            <div class="ctn-images">
-                <div class="close-modal"><i data-item="0" id="closeModal" class='bx bx-x'></i></div>
-                <img id="image-modal" src="../galery/1.jpeg" alt="">
-                <div class="pagination-modal">
-                    <span id="indexImg">1</span><span>/</span><span>50</span>
-                </div>
-            </div>
-            
-    
-            <button class=" btn btn-left"><i data-button="-1" class='bx bxs-left-arrow'></i></button>
-            <button class=" btn btn-right"><i data-button="1" class='bx bxs-right-arrow'></i></button>
-            
-        </aside>
-      </section>
+   
     <script src="../JS/script.js"></script>
     <script src="../JS/galery.js"></script>
 </body>
