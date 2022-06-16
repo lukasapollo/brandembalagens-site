@@ -1,5 +1,5 @@
 .header{
-    background-color: #000119;
+    background-color: #0e0e0e;
     height: 157px;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ header.header-scroll{
 }
 
 .boxs-header-1 ul li a:hover {
-    color: rgb(0, 174, 255);
+    color: rgb(255, 40, 119);
 }
 
 .boxs-header-1 ul li a.catalago{
@@ -101,7 +101,7 @@ header.header-scroll{
 
 
 .boxs-header-1 ul li .page-active{
-    color: rgb(0, 174, 255);
+    color: rgb(255, 40, 119);
 }
 
 .btn-menu i{
