@@ -1,83 +1,20 @@
-.footer {
-    background-color: black;
-    color: white;
-    margin: 3.5rem 0px 1rem 0px;
-    height: 80px;
+.footer{
+    background-color: rgb(24, 24, 164);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 30px 10px;
+}
+
+.container-footer{
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.footer .container-footer,
-.footer .container-footer ul,
-.container-nf {
-    display: flex;
-}
-
-.footer .container-footer{
     width: 100%;
-    max-width: 1080px;
-    align-items: center;
-}
-
-.container-nf{
-    width: 10%;
-    justify-content: flex-end;
-    gap: 1rem;
-}
-
-.description-footer{
-    width: 90%;
     display: flex;
-    justify-content: space-between;
-}
-
-.nav-footer{
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     gap: 1rem;
-}
-
-.nav-footer i{
-    color: rgb(129, 129, 129);
-}
-.nav-footer i:hover{
-    color: rgb(216, 216, 216);
-}
-
-.footer-up{
-    padding: 3px;
-    border: 2px solid white;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.footer-up i{
-    font-size: 2.5rem;
     color: #fff;
 }
 
-@media (max-width: 767px) {
-    .footer{
-        height: auto;
-        padding: 20px 0px;
-    }
-
-    .footer .container-footer{
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .container-nf{                                                                                                                                                      
-        order: 1;
-        flex-direction: column;
-    }
-
-    .description-footer{
-        order: 2;
-        flex-direction: column; 
-        gap: 1rem;
-    }
+.container-footer h2{
+    color: yellow;
 }
