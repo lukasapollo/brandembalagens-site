@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .container-content .content-1 img{
@@ -29,12 +29,13 @@
 
 .container-content .content-3 img{
     width: 100%;
+    max-width: 736px;
 }
 
 .container-content .content-4 span{
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 20px;
-    background-color: rgb(255, 149, 36);
+    background-color: #e91e63;
     border-radius: 20px;
 }
