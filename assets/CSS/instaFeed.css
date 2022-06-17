@@ -33,6 +33,7 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: #0d0d0d;
+    background-image: url('../new-img/01-fundo-geral.png');
 }
 
 .feed a{
