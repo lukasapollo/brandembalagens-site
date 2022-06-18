@@ -383,55 +383,55 @@
             <h1>Orçamento</h1>
             <p>Para Orçamento preencha corretamente os Dados Abaixo</p>
         </div>
-        <form action="">
+        <form action="./assets/PHP/enviar-email.php" method="POST">
             <label for="">
                 <span>Nome:</span> <br>
-                <input class="ipt" type="text">
+                <input class="ipt" type="text"name="nome">
             </label>
 
             <label for="">
                 <span>Cidade:</span> <br>
-                <input class="ipt" type="text">
+                <input class="ipt" type="text" name="cidade">
             </label>
 
             <label for="">
                 <span>Estado:</span> <br>
-                <input class="ipt" type="text">
+                <input class="ipt" type="text" name="estado">
             </label>
 
             <label for="">
                 <span>Empresa:</span> <br>
-                <input class="ipt" type="text">
+                <input class="ipt" type="text" name="empresa">
             </label>
 
             <label for="">
                 <span>Telefone:</span> <br>
-                <input class="ipt" type="number">
+                <input class="ipt" type="number" name="telefone">
             </label>
 
             <label for="">
                 <span>Email:</span> <br>
-                <input class="ipt" type="email">
+                <input class="ipt" type="email" name="email">
             </label>
 
             <label for="">
                 <span>Tipo de produto que envasa ou embala:</span> <br>
-                <input class="ipt" type="text">
+                <input class="ipt" type="text" name="tipoProduto">
             </label>
 
             <div class="ctn-checkbox">
                 <label for="" class="title-checkbox">Experiencia da empresa com embalagem personalizada:</label>
 
                 <label for="">
-                    <input type="checkbox" name="" id=""> <span>Nunca fiz embalagem ou sacola com a minha marca</span>
+                    <input type="checkbox" name="experiencia[]" id=""> <span>Nunca fiz embalagem ou sacola com a minha marca</span>
                 </label>
 
                 <label for="">
-                    <input type="checkbox" name="" id=""> <span>Sou experiente, já faço com a minha marca personalizada</span>
+                    <input type="checkbox" name="experiencia[]" id=""> <span>Sou experiente, já faço com a minha marca personalizada</span>
                 </label>
 
                 <label for="">
-                    <input type="checkbox" name="" id=""> <span>Quero embalagem lisa, sem impressão</span>
+                    <input type="checkbox" name="experiencia[]" id=""> <span>Quero embalagem lisa, sem impressão</span>
                 </label>
             </div>
 
@@ -439,19 +439,19 @@
                 <label for="" class="title-checkbox">Tipo de empresa:</label>
                 
                 <label for="">
-                    <input type="checkbox" name="" id=""> <span>Pessoa fisíca, ou autônomo quero comprar no cpf.</span>
+                    <input type="checkbox" name="tipoEmpresa[]" id=""> <span>Pessoa fisíca, ou autônomo quero comprar no cpf.</span>
                 </label>
 
                 <label for="">
-                    <input type="checkbox" name="" id=""> <span>Su MEI,  autônomo po Produtor rural com CNPJ</span>
+                    <input type="checkbox" name="tipoEmpresa[]" id=""> <span>Su MEI,  autônomo po Produtor rural com CNPJ</span>
                 </label>
 
                 <label for="">
-                    <input type="checkbox" name="" id=""> <span>Sou uma indústria, tenho linha de produção</span>
+                    <input type="checkbox" name="tipoEmpresa[]" id=""> <span>Sou uma indústria, tenho linha de produção</span>
                 </label>
 
                 <label for="">
-                    <input type="checkbox" name="" id=""> <span>Sou uma loja, comércio ou distribuidora.</span>
+                    <input type="checkbox" name="tipoEmpresa[]" id=""> <span>Sou uma loja, comércio ou distribuidora.</span>
                 </label>
             </div>
 
@@ -459,15 +459,15 @@
                 <label for="" class="title-checkbox">Tipo de produto:</label>
                 
                 <label for="">
-                    <input type="checkbox" name="" id=""> <span>Tenho um único produto.</span>
+                    <input type="checkbox" name="tipoProduto[]" id=""> <span>Tenho um único produto.</span>
                 </label>
 
                 <label for="">
-                    <input type="checkbox" name="" id=""> <span>Tenho varios produtos, uso varios tipos de embalagens!</span>
+                    <input type="checkbox" name="tipoProduto[]" id=""> <span>Tenho varios produtos, uso varios tipos de embalagens!</span>
                 </label>
 
                 <label for="">
-                    <input type="checkbox" name="" id=""> <span>Sou uma loja ou comercio, preciso de sacolas e outros.</span>
+                    <input type="checkbox" name="tipoProduto[]" id=""> <span>Sou uma loja ou comercio, preciso de sacolas e outros.</span>
                 </label>
             </div>
 
